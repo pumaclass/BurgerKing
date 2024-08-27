@@ -13,7 +13,10 @@ public class Main {
         burgerKing.recordGetIn();
         burgerKing.takeOrder();
         burgerKing.takeMoney();
+
+        //세트메뉴 입력
         setMenu.order("setMenu1");
+
         burgerKing.recordGetOut();
 
         }
